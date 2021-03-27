@@ -5,6 +5,7 @@ Small reproducible example of a "quick-and-dirty" method for using external libr
 ```R
 library(devtools)
 install_github("Bijaelo/RcppTinyUTF8")
+library(tinyutf8) # <= Note the inconsistent naming (apologies that is on me)
 printUTF("!🌍 olleH")
 ```
 
